@@ -1,0 +1,213 @@
+.header{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 7em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav{
+    background-color: burlywood;
+    width: 100vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.logo{
+    background-color: blue;
+    width: 15em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logo__img{
+    background-color: #db817c;
+    width:11em;
+    height: 4.5em;
+}
+
+.barra{
+    background-color: darkseagreen;
+    width: 60em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.barra__links{
+    background-color: rgb(53, 171, 160);
+    list-style: none;
+}
+
+.barra__links a{
+    background-color: darkorchid;
+    padding: .5em 1.5em;
+
+    text-decoration: none;
+}
+
+        /*MAIN*/
+
+.main{
+    width: 100%;
+}
+
+        /*SECCION UNO*/
+
+.serv{
+    background-color: #25ac4e;
+    width: 100%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.uno{
+    background-color: #db817c;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.uno__titulo{
+    background-color: #6c8e32;
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+}
+
+.uno__texto{
+    background-color: rgb(180, 142, 92);
+}
+
+        /*SECCION DOS*/
+
+.servicios{
+    background-color: #6c8e32;
+    width: 100%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    background-color: #9dd33f;
+    width: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos__titulo{
+    background-color: #9c4242;
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+}
+
+.empresas{
+    background-color: lightblue;
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresas__img{
+    background-color: lightpink;
+    width: 10em;
+    height: 10em;
+    margin: 2em;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    background-color: #25ac4e;
+    width: 100%;
+    height: 4em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.finp{
+    background-color: #9c4242;
+    width: 90vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.izq{
+    background-color: #9dd33f;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq__copy{
+    background-color: lightcoral;
+}
+
+.dch{
+    background-color: rgb(213, 148, 99);
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dch__a{
+    background-color: rgb(92, 197, 197);
+    padding: 1em 2em;
+}

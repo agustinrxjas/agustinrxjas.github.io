@@ -1,0 +1,239 @@
+/*---CODIGO CSS PARA LA PAGINA DE INICIO---*/
+
+.header{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 7em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav{
+    background-color: burlywood;
+    width: 100vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.logo{
+    background-color: blue;
+    width: 15em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logo__img{
+    background-color: #db817c;
+    width:11em;
+    height: 4.5em;
+}
+
+.barra{
+    background-color: darkseagreen;
+    width: 60em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.barra__links{
+    background-color: rgb(53, 171, 160);
+    list-style: none;
+}
+
+.barra__links a{
+    background-color: darkorchid;
+    padding: .5em 1.5em;
+
+    text-decoration: none;
+}
+
+        /*MAIN*/
+
+.main{
+    width: 100%;
+}
+
+        /*SECCION UNO*/
+
+.somosa{
+    background-color: orange;
+    width: 100%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.somosa__div{
+    background-color: #db817c;
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
+
+.quiens__div--h1{
+    background-color: green;
+    padding: 1em 2em;
+    margin: 0 3em 1.5em 3em;
+}
+
+.quiens__div--p{
+    background-color: lightblue;
+
+}
+
+        /*SECCION DOS*/
+
+.somosb{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.somosb__div{
+    background-color: lightblue;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.somosb__div--h1{
+    background-color: #7c81db;
+    padding: 1em 2em;
+    margin: 0 3em 1.5em 3em;
+}
+
+.info{
+    background-color: rgb(121, 89, 46);
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartas{
+    background-color: #25ac4e;
+    width: 22em;
+    margin: 0 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartas__img{
+    background-color: #9dd33f;
+    width: 10em;
+    min-height: 10em;
+    border-radius: 10em;
+}
+
+.cartas__titulo{
+    background-color: cornflowerblue;
+    padding: .5em 1em;
+    margin: .5em 3em;
+}
+
+.cartas__p{
+    background-color: darkviolet;
+    min-height: 15em;
+}
+
+        /*footer*/
+
+.footer{
+    background-color: #25ac4e;
+    width: 100%;
+    height: 4em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.finp{
+    background-color: #9c4242;
+    width: 90vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.izq{
+    background-color: #9dd33f;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq__copy{
+    background-color: lightcoral;
+}
+
+.dch{
+    background-color: rgb(213, 148, 99);
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dch__a{
+    background-color: rgb(92, 197, 197);
+    padding: 1em 2em;
+}

@@ -1,0 +1,2080 @@
+
+/*---CODIGO CSS PARA LA PAGINA DE INICIO---*/
+
+.header{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 7em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav{
+    background-color: burlywood;
+    width: 100vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.logo{
+    background-color: blue;
+    width: 15em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logo__img{
+    background-color: #db817c;
+    width:11em;
+    height: 4.5em;
+}
+
+.barra{
+    background-color: darkseagreen;
+    width: 60em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.barra__links{
+    background-color: rgb(53, 171, 160);
+    list-style: none;
+}
+
+.barra__links a{
+    background-color: darkorchid;
+    padding: .5em 1.5em;
+
+    text-decoration: none;
+}
+
+        /*MAIN*/
+
+.main{
+    width: 100%;
+}
+
+        /*INICIO*/
+
+.seccion{
+    background-color: #db817c;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion--a{
+    
+}
+
+.inicio{
+    background-color: antiquewhite;
+    width:  100%;
+    max-width: 40em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inicio__titulo{
+    background-color: orange;
+    padding: 1em 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.inicio__logo{
+    background-color: #db817c;
+    width: 30em;
+    min-height: 15em;
+}
+
+        /*QUIENES SOMOS */
+
+.seccion--b{
+    background-color: #25ac4e;
+    min-height: 60vh;
+
+}
+
+.quiensomos{
+    background-color: antiquewhite;
+    width: 70vw;
+    max-width: 90em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.somos{
+    background-color: aquamarine;
+    width: 50vw;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.somos__titulo{
+    background-color: blueviolet;
+    padding: 1em 5em;
+}
+
+.caja{
+    background-color: burlywood;
+    width: 65vw;
+    max-width: 80em;
+    padding: 1em;
+    border-radius: 2em;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja__p{
+    background-color: cadetblue;
+    width: 100%;
+    padding: 3em;
+
+}
+
+        /*SERVICIOS*/
+
+.seccion--c{
+    background-color: #9c4242; 
+    min-height: 70vh;
+}
+
+.cajas{
+    background-color: blueviolet;
+    width: 60vw;
+    max-width: 92em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cajas__titulo{
+    background-color: #9dd33f;
+    width: 60vw;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cajas__titulo--h2{
+    background-color: burlywood;
+    padding: 1em 5em;
+}
+
+#carouselExample{
+    background-color: antiquewhite;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6em;
+}
+
+.carousel-inner{
+    width: 80%;
+}
+
+.carousel-item{
+
+}
+
+.active{
+
+}
+
+.d-block{
+
+}
+
+.w-100{
+
+}
+
+.carousel-control-prev{
+
+}
+
+.carousel-control-prev-icon{
+    background-color: #25ac4e;
+
+}
+
+.visually-hidden{
+
+}
+
+.carousel-control-next{
+
+}
+
+.carousel-control-next-icon{
+    background-color: #25ac4e;
+
+}
+
+.visually-hidden{
+
+}
+
+
+        /*UBICACION*/
+
+.seccion--d{
+    background-color: antiquewhite;
+    min-height: 60vh;
+    
+}
+
+.sec{
+    background-color: #9dd33f;
+    width: 60vw;
+    max-width: 90em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.sucursal{
+    background-color: #25ac4e;
+    width: 40vw;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sucursal__titulo{
+    background-color: aquamarine;
+    padding: 1em 5em;
+}
+
+.ubicacion{
+    background-color: purple;
+    width: 20em;
+    min-height: 20em;
+    margin: 0 20em;
+}
+
+.ubicacion__a{
+    background-color: lightpink;
+}
+
+.ubicacion__a--img{
+    background-color: lightskyblue;
+}
+
+        /*CONTACTO*/
+
+.seccion--e{
+    background-color: purple;
+    min-height: 60vh;
+}
+
+.contacto{
+    background-color: lightgreen;
+    width: 70vw;
+    max-width: 90em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.contactar{
+    background-color: lightpink;
+    width: 50vw;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    margin-bottom: 1.5em;
+}
+
+.contactar__titulo{
+    background-color: lightslategray;
+    padding: 1em 5em;
+}
+
+.contact{
+    background-color: orange;
+    width: 65vw;
+    max-width: 80em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact__info{
+    background-color: #db817c;
+    width: 100%; 
+    padding: 3.5em;
+    border-radius: 2em;
+}
+
+.contact__link{
+    background-color: aquamarine;
+    padding: .9em 1.7em;
+    border-radius: 1em;
+    margin: 1em;
+
+}
+
+        /*footer*/
+
+.footer{
+    background-color: #25ac4e;
+    width: 100%;
+    height: 5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.finp{
+    background-color: #9c4242;
+    width: 90vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.izq{
+    background-color: #9dd33f;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq__copy{
+    background-color: lightcoral;
+}
+
+.dch{
+    background-color: rgb(213, 148, 99);
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dch__a{
+    background-color: rgb(92, 197, 197);
+    padding: 1em 2em;
+}
+
+/*------------------------------------------------------------------------------------------*/
+    /*PANTALLA DESDE 1920 A 2048*/
+    @media screen and (min-width:1920px) and (max-width:2048px){
+
+.header{
+    background-color: rgb(131, 131, 222);
+            
+}
+                
+.nav{
+
+}
+                
+.logo{
+        
+}
+                
+.logo__img{
+                
+}
+                
+.barra{
+    
+}
+                
+.barra__links{
+                
+}
+                
+.barra__links a{
+                
+}
+                
+.main{
+                
+}
+                
+        /*INICIO*/
+                
+.seccion{
+
+}
+                
+.seccion--a{
+                    
+}
+                
+.inicio{
+                
+}
+                
+.inicio__titulo{
+
+}
+                
+.inicio__logo{
+
+}
+                
+       /*QUIENES SOMOS */
+                
+.seccion--b{
+
+                
+}
+                
+.quiensomos{
+
+}
+                
+.somos{
+
+}
+                
+.somos__titulo{
+               
+}
+                
+.caja{
+        
+}
+                
+.caja__p{
+  
+}
+                
+        /*SERVICIOS*/
+                
+.seccion--c{
+  
+}
+                
+.servicios{
+                
+}
+                
+.especialidad{
+                    
+}
+                
+.especialidad__titulo{
+                
+}
+                
+.especialidades{
+                
+}
+                
+.especialidades__img{
+
+}
+                
+        /*UBICACION*/
+                
+.seccion--d{
+                    
+}
+                
+.sec{
+
+}
+
+.sucursal{
+
+}
+
+.sucursal__titulo{
+
+}
+                
+.ubicacion{
+}
+                
+.ubicacion__a{
+
+}
+                
+.ubicacion__a--img{
+
+}
+                
+        /*CONTACTO*/
+                
+.seccion--e{
+
+}        
+               
+.contacto{
+                      
+}
+                
+.contactar{
+
+}
+                
+.contactar__titulo{
+
+}
+                
+.contact{
+        
+}
+                
+.contact__info{
+        
+}
+                
+.contact__link{
+
+}
+                
+        /*footer*/
+                
+.footer{
+                           
+}
+                
+.finp{
+                
+}
+                
+.izq{
+                
+}
+                
+.izq__copy{
+
+}
+                
+.dch{
+
+}
+                
+.dch__a{
+
+}
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+        /*PANTALLA DESDE 1328 A 1920*/
+
+@media screen and (min-width:1328px) and (max-width:1920px){
+
+.header{
+    background-color: rgb(131, 131, 222);
+                            
+}
+                                
+.nav{
+                
+}
+                                
+.logo{
+                        
+}
+                                
+.logo__img{
+                                
+}
+                                
+.barra{
+    
+}
+                                
+.barra__links{
+                                
+}
+                                
+.barra__links a{
+                                
+}
+                                
+.main{
+                                
+}
+                                
+        /*INICIO*/
+                                
+                                
+.seccion--a{
+                                    
+}
+                                
+.inicio{
+                                
+}
+                                
+.inicio__titulo{
+                
+}
+                                
+.inicio__logo{
+                
+}
+                                
+        /*QUIENES SOMOS */
+                                
+.seccion--b{
+                                  
+}
+                                
+.quiensomos{
+    width: 85%;
+}
+                                
+.somos{
+                
+}
+                                
+.somos__titulo{
+                               
+}
+                                
+.caja{                    
+    width: 90%;
+}
+                                
+.caja__p{
+    border-radius: 2em;
+}
+                                
+        /*SERVICIOS*/
+
+.seccion--c{
+    height: 90vh;
+}
+        
+.cajas{
+     width: 85%;     
+}
+        
+.cajas__titulo{
+
+}
+        
+.cajas__titulo--h2{
+  
+}
+        
+#carouselExample{
+    width: 80%;
+    max-width: 65em;
+    border-radius: 3em;
+}
+        
+.carousel-inner{
+    width: 35%;
+    margin: .5em 2em;
+}
+        
+.carousel-item{
+        
+}
+        
+.active{
+        
+}
+        
+.d-block{
+        
+}
+        
+.w-100{
+        
+}
+        
+.carousel-control-prev{
+        
+}
+        
+.carousel-control-prev-icon{
+        
+}
+        
+.visually-hidden{
+        
+}
+        
+.carousel-control-next{
+        
+}
+        
+.carousel-control-next-icon{
+        
+}
+        
+.visually-hidden{
+
+}
+        
+                                                       
+        /*UBICACION*/
+                                
+.seccion--d{
+    min-height: 85vh;                           
+}
+                                
+.sec{
+    width: 85%;       
+}
+                
+.sucursal{
+    width: 90%;         
+}
+                
+.sucursal__titulo{
+                
+}
+                                
+.ubicacion{
+    margin: 0 10em;
+}
+                                
+.ubicacion__a{
+                
+}
+                                
+.ubicacion__a--img{
+                
+}
+                                
+        /*CONTACTO*/
+                                
+.seccion--e{
+    min-height: 80vh;      
+}        
+                               
+.contacto{
+    width: 85%;                               
+}
+                                
+.contactar{
+                
+}
+                                
+.contactar__titulo{
+                
+}
+                                
+.contact{
+    width: 90%;                 
+}
+                                
+.contact__info{
+                        
+}
+                                
+.contact__link{
+                
+}
+                                
+        /*footer*/
+                                
+.footer{
+                                           
+}
+                                
+.finp{
+                                
+}
+                                
+.izq{
+                                
+}
+                                
+.izq__copy{
+                
+}
+                                
+.dch{
+                
+}
+                                
+.dch__a{
+                
+}
+                                
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+/*PANTALLA DESDE 1024 A 1328*/
+
+ @media screen and (min-width:1024px) and (max-width:1328px){
+
+.header{
+    
+                                        
+}
+                                            
+.nav{
+                            
+}
+                                            
+.logo{
+                                    
+}
+                                            
+.logo__img{
+                                            
+}
+                                            
+.barra{
+                
+}
+                                            
+.barra__links{
+
+}
+                                            
+.barra__links a{
+                                            
+}
+                                            
+.main{
+                                            
+}
+                                            
+        /*INICIO*/
+
+                                            
+.seccion--a{
+                                                
+}
+                                            
+.inicio{
+                                            
+}
+                                            
+.inicio__titulo{
+                            
+}
+                                            
+.inicio__logo{
+                            
+}
+                                
+        /*QUIENES SOMOS */
+                                            
+.seccion--b{
+                            
+                                            
+}
+                                            
+.quiensomos{
+    width: 90%;
+}
+                                            
+.somos{
+                            
+}
+                                            
+.somos__titulo{
+                                           
+}
+                                            
+.caja{                    
+    width: 95%;
+}
+                                            
+.caja__p{
+    border-radius: 2em;    
+}
+                                            
+        /*SERVICIOS*/
+            
+.seccion--c{
+    min-height: 90vh;
+}          
+                    
+.cajas{
+    width: 90%;          
+}
+                    
+.cajas__titulo{
+            
+}
+                    
+.cajas__titulo--h2{
+              
+}
+                    
+#carouselExample{
+    border-radius: 3em;
+                
+}
+                    
+.carousel-inner{
+             
+}
+                    
+.carousel-item{
+                    
+}
+                    
+.active{
+                    
+}
+                    
+.d-block{
+                    
+}
+                    
+.w-100{
+                    
+}
+        
+.carousel-control-prev{
+                    
+}
+                    
+.carousel-control-prev-icon{
+                    
+}
+                    
+.visually-hidden{
+                    
+}
+                    
+.carousel-control-next{
+                    
+}
+                    
+.carousel-control-next-icon{
+                    
+}
+                    
+.visually-hidden{
+            
+}
+                    
+                                                                   
+        /*UBICACION*/
+                                            
+.seccion--d{
+    min-height: 90vh;            
+}
+                                            
+.sec{
+    width: 90%;                     
+}
+                            
+.sucursal{
+     
+}
+                            
+.sucursal__titulo{
+                            
+}
+                                            
+.ubicacion{
+    margin: 0 15em;      
+}
+                                            
+.ubicacion__a{
+                            
+}
+                                            
+.ubicacion__a--img{
+                            
+}
+                                            
+                    /*CONTACTO*/
+                                            
+.seccion--e{
+    min-height: 90vh;
+}        
+                                           
+.contacto{
+    width: 90%;
+}
+                                            
+.contactar{
+                            
+}
+                                            
+.contactar__titulo{
+                            
+}
+                                            
+.contact{
+    width: 95%;                    
+}
+                                            
+.contact__info{
+    padding: 2.5em;                         
+}
+                                            
+.contact__link{
+                            
+}
+                                            
+        /*footer*/
+                                            
+.footer{
+                                                       
+}
+                                            
+.finp{
+                                            
+}
+                                            
+.izq{
+                                            
+}
+                                            
+.izq__copy{
+                            
+}
+                                            
+.dch{
+                            
+}
+                                            
+.dch__a{
+                            
+}
+                                            
+}
+
+/**/
+/*------------------------------------------------------------------------------------------*/
+
+/*PANTALLA DESDE 960 A 1024*/
+
+@media screen and (min-width:960px) and (max-width:1024px){
+
+.header{
+        
+}
+                                                
+.nav{
+                                
+}
+                                                
+.logo{
+
+}
+                                                
+.logo__img{
+
+}
+                                                
+.barra{
+                    
+}
+                                                
+.barra__links{
+    
+}
+                                                
+.barra__links a{
+    padding: .5em 1em;                                   
+}
+                                                
+.main{
+                                                
+}
+                                                
+            /*INICIO*/
+                                                
+.seccion--a{
+                                                    
+}
+                                                
+.inicio{
+                                                
+}
+                                                
+.inicio__titulo{
+                                
+}
+                                                
+.inicio__logo{
+                                
+}
+                                    
+        /*QUIENES SOMOS */
+                                                
+.seccion--b{
+    min-height: 90vh;                                      
+}
+                                                
+.quiensomos{
+        width: 90%;
+}
+                                                
+.somos{
+                                
+}
+                                                
+    .somos__titulo{
+                                           
+}
+                                                
+.caja{                    
+        width: 95%;
+}
+                                                
+.caja__p{
+        border-radius: 2em;    
+}
+                                                
+     /*SERVICIOS*/
+                
+.seccion--c{
+    min-height: 90vh;
+}          
+                        
+.cajas{
+     width: 90%;          
+}
+                        
+    .cajas__titulo{
+                
+    }
+                        
+    .cajas__titulo--h2{
+                  
+    }
+                        
+    #carouselExample{
+        border-radius: 3em;
+                    
+    }
+                        
+    .carousel-inner{
+                 
+    }
+                        
+    .carousel-item{
+                        
+    }
+                        
+    .active{
+                        
+    }
+                        
+    .d-block{
+                        
+    }
+                        
+    .w-100{
+                        
+    }
+            
+    .carousel-control-prev{
+                        
+    }
+                        
+    .carousel-control-prev-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                        
+    }
+                        
+    .carousel-control-next{
+                        
+    }
+                        
+    .carousel-control-next-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                
+    }
+                        
+                                                                       
+            /*UBICACION*/
+                                                
+.seccion--d{
+    min-height: 90vh;            
+}
+                                                
+    .sec{
+        width: 90%;                     
+    }
+                                
+    .sucursal{
+         
+    }
+                                
+    .sucursal__titulo{
+                                
+    }
+                                                
+    .ubicacion{
+        margin: 0 15em;      
+    }
+                                                
+    .ubicacion__a{
+                                
+    }
+                                                
+    .ubicacion__a--img{
+                                
+    }
+                                                
+                        /*CONTACTO*/
+                                                
+    .seccion--e{
+        min-height: 90vh;
+    }        
+                                               
+    .contacto{
+        width: 90%;
+    }
+                                                
+    .contactar{
+                                
+    }
+                                                
+.contactar__titulo{
+                                
+}
+                                                
+.contact{
+        width: 95%;                    
+}
+                                                
+.contact__info{
+        padding: 2.5em;                         
+}
+                                                
+.contact__link{
+        
+}
+                                                
+        /*footer*/
+                                                
+.footer{
+                                                           
+}
+                                                
+.finp{
+                                                
+}
+                                                
+.izq{
+                                                
+}
+                                                
+.izq__copy{
+                                
+}
+                                                
+.dch{
+                                
+}
+                                                
+.dch__a{
+                                
+}
+                                                
+}
+/**/
+
+/*------------------------------------------------------------------------------------------*/
+
+/*PANTALLA DESDE 768 A 960*/
+
+@media screen and (min-width:768px) and (max-width:960px){
+
+    .header{
+        
+                                            
+    }
+                                                
+    .nav{
+        padding: .5em;                        
+    }
+                                                
+    .logo{
+        width: 10em;                                
+    }
+                                                
+    .logo__img{
+        width: 100%;                                   
+    }
+                                                
+    .barra{
+        width: calc(100% - 10.5em);          
+    }
+                                                
+    .barra__links{
+    
+    }
+                                                
+    .barra__links a{
+        padding: 0.6em;                          
+    }
+                                                
+    .main{
+                                                
+    }
+                                                
+            /*INICIO*/
+                                       
+    .seccion--a{
+                                                    
+    }
+                                                
+    .inicio{
+                                                
+    }
+                                                
+    .inicio__titulo{
+                                
+    }
+                                                
+    .inicio__logo{
+                                
+    }
+                                    
+            /*QUIENES SOMOS */
+                                                
+    .seccion--b{                        
+        min-height: 100vh;                                
+    }
+                                                
+    .quiensomos{
+        width: 98%;
+    }
+                                                
+    .somos{
+                                
+    }
+                                                
+    .somos__titulo{
+                                               
+    }
+                                                
+    .caja{                    
+        width: 95%;
+    }
+                                                
+    .caja__p{
+        padding: 1em;
+    }
+                                                
+            /*SERVICIOS*/
+                
+.seccion--c{
+
+    min-height: 100vh;    
+}          
+                        
+    .cajas{
+         width: 98%;
+    }
+                        
+    .cajas__titulo{
+                
+    }
+                        
+    .cajas__titulo--h2{
+                  
+    }
+                        
+    #carouselExample{
+        border-radius: 2em;
+    }
+                        
+    .carousel-inner{
+                 
+    }
+                        
+    .carousel-item{
+                        
+    }
+                        
+    .active{
+                        
+    }
+                        
+    .d-block{
+                        
+    }
+                        
+    .w-100{
+                        
+    }
+            
+    .carousel-control-prev{
+                        
+    }
+                        
+    .carousel-control-prev-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                        
+    }
+                        
+    .carousel-control-next{
+                        
+    }
+                        
+    .carousel-control-next-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                
+    }
+                        
+                                                                       
+            /*UBICACION*/
+                                                
+    .seccion--d{
+       min-height: 100vh;   
+    }
+                                                
+    .sec{
+         width: 98%;           
+    }
+                                
+    .sucursal{
+         
+    }
+                                
+    .sucursal__titulo{
+                                
+    }
+                                                
+    .ubicacion{
+        margin: 0 5em;
+    }
+                                                
+    .ubicacion__a{
+                                
+    }
+                                                
+    .ubicacion__a--img{
+                                
+    }
+                                                
+                        /*CONTACTO*/
+                                                
+    .seccion--e{
+        min-height: 100vh;
+    }        
+                                               
+    .contacto{
+        width: 98%;
+    }
+                                                
+    .contactar{
+                                
+    }
+                                                
+    .contactar__titulo{
+                                
+    }
+                                                
+    .contact{
+        width: 98%;          
+    }
+                                                
+    .contact__info{
+    width: 100%;
+    padding: 1.5em;        
+    }
+                                                
+    .contact__link{
+                                
+    }
+                                                
+            /*footer*/
+                                                
+    .footer{
+                                                           
+    }
+                                                
+    .finp{
+                                                
+    }
+                                                
+    .izq{
+                                                
+    }
+                                                
+    .izq__copy{
+                                
+    }
+                                                
+    .dch{
+                                
+    }
+                                                
+    .dch__a{
+                                
+    }
+                                                
+    }
+
+/*---------------------------------------------------------------------------**/
+@media screen and (min-width:480px) and (max-width:768px){
+                                       
+    .nav{
+        padding: .2em;                        
+    }
+                                                
+    .logo{
+        display: none;                              
+    }
+                                                
+    .logo__img{                                
+    }
+                                                
+    .barra{
+        width: 100% ;
+        padding-left: 0;
+        justify-content: center;         
+    }
+                                                
+    .barra__links{
+    
+    }
+                                                
+    .barra__links a{
+        padding: 0.6em;                          
+    }
+                                                
+    .main{
+                                                
+    }
+                                                
+            /*INICIO*/
+                                       
+    .seccion--a{
+                                                    
+    }
+                                                
+    .inicio{
+                                                
+    }
+                                                
+    .inicio__titulo{
+                                
+    }
+                                                
+    .inicio__logo{
+        width: 20em;      
+        margin: 0 5em;             
+    }
+                                    
+            /*QUIENES SOMOS */
+                                                
+    .seccion--b{                        
+        min-height: 100vh;                                
+    }
+                                                
+    .quiensomos{
+        width: 98%;
+    }
+                                                
+    .somos{
+                                
+    }
+                                                
+    .somos__titulo{
+                                               
+    }
+                                                
+    .caja{                    
+        width: 95%;
+    }
+                                                
+    .caja__p{
+        padding: 1em;
+    }
+                                                
+            /*SERVICIOS*/
+                
+.seccion--c{
+
+    min-height: 100vh;    
+}          
+                        
+    .cajas{
+         width: 98%;
+    }
+                        
+    .cajas__titulo{
+        width: 90%;        
+    }
+                        
+    .cajas__titulo--h2{
+                  
+    }
+                        
+    #carouselExample{
+        border-radius: 2em;
+        width: 98%;
+    }
+                        
+    .carousel-inner{
+        width: 14em;
+        margin: .2em 0em;
+    }
+                        
+    .carousel-item{
+                        
+    }
+                        
+    .active{
+                        
+    }
+                        
+    .d-block{
+                        
+    }
+                        
+    .w-100{
+                        
+    }
+            
+    .carousel-control-prev{
+                        
+    }
+                        
+    .carousel-control-prev-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                        
+    }
+                        
+    .carousel-control-next{
+                        
+    }
+                        
+    .carousel-control-next-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                
+    }
+                        
+                                                                       
+            /*UBICACION*/
+                                                
+    .seccion--d{
+       min-height: 100vh;   
+    }
+                                                
+    .sec{
+         width: 98%;           
+    }
+                                
+    .sucursal{
+        width: 90%;
+    }
+                                
+    .sucursal__titulo{
+                                
+    }
+                                                
+    .ubicacion{
+        margin: 0 5em;
+    }
+                                                
+    .ubicacion__a{
+                                
+    }
+                                                
+    .ubicacion__a--img{
+                                
+    }
+                                                
+                        /*CONTACTO*/
+                                                
+    .seccion--e{
+        min-height: 100vh;
+    }        
+                                               
+    .contacto{
+        width: 98%;
+    }
+                                                
+    .contactar{
+        width: 90%;                 
+    }
+                                                
+    .contactar__titulo{
+                                
+    }
+                                                
+    .contact{
+        width: 98%;          
+    }
+                                                
+    .contact__info{
+    width: 100%;
+    padding: 1.5em;        
+    }
+                                                
+    .contact__link{
+                                
+    }
+                                                
+            /*footer*/
+                                                
+    .footer{
+                                                           
+    }
+                                                
+    .finp{
+                                                
+    }
+                                                
+    .izq{
+                                                
+    }
+                                                
+    .izq__copy{
+                                
+    }
+                                                
+    .dch{
+                                
+    }
+                                                
+    .dch__a{
+                                
+    }
+                                                
+    }
+
+/*4546546545646546546546546546546546545645646546545454654654654465465465465465465465*/
+
+@media screen and (min-width:320px) and (max-width:480px){
+                                       
+    .nav{
+        padding: .2em;                        
+    }
+                                                
+    .logo{
+        display: none;                              
+    }
+                                                
+    .logo__img{                                
+    }
+                                                
+    .barra{
+        width: 100% ;
+        padding-left: 0;         
+    }
+                                                
+    .barra__links{
+    
+    }
+                                                
+    .barra__links a{
+        padding: 0.6em;                          
+    }
+                                                
+    .main{
+                                                
+    }
+                                                
+            /*INICIO*/
+                                       
+    .seccion--a{
+                                                    
+    }
+                                                
+    .inicio{
+                                                
+    }
+                                                
+    .inicio__titulo{
+                                
+    }
+                                                
+    .inicio__logo{
+        width: 20em;                   
+    }
+                                    
+            /*QUIENES SOMOS */
+                                                
+    .seccion--b{                        
+        min-height: 100vh;                                
+    }
+                                                
+    .quiensomos{
+        width: 98%;
+    }
+                                                
+    .somos{
+      width: 95%;                          
+    }
+                                                
+    .somos__titulo{
+                                               
+    }
+                                                
+    .caja{                    
+        width: 95%;
+        padding: .3em;
+    }
+                                                
+    .caja__p{
+        padding: .2em;
+    }
+                                                
+            /*SERVICIOS*/
+                
+.seccion--c{
+
+    min-height: 100vh;    
+}          
+                        
+    .cajas{
+         width: 98%;
+    }
+                        
+    .cajas__titulo{
+        width: 96%;        
+    }
+                        
+    .cajas__titulo--h2{
+        padding: 1em 2em;    
+    }
+                        
+    #carouselExample{
+        border-radius: 2em;
+        width: 98%;
+    }
+                        
+    .carousel-inner{
+        width: 14em;
+        margin: .2em 0em;
+    }
+                        
+    .carousel-item{
+                        
+    }
+                        
+    .active{
+                        
+    }
+                        
+    .d-block{
+                        
+    }
+                        
+    .w-100{
+                        
+    }
+            
+    .carousel-control-prev{
+                        
+    }
+                        
+    .carousel-control-prev-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                        
+    }
+                        
+    .carousel-control-next{
+                        
+    }
+                        
+    .carousel-control-next-icon{
+                        
+    }
+                        
+    .visually-hidden{
+                
+    }
+                        
+                                                                       
+            /*UBICACION*/
+                                                
+    .seccion--d{
+       min-height: 100vh;   
+    }
+                                                
+    .sec{
+         width: 98%;           
+    }
+                                
+    .sucursal{
+        width: 90%;
+    }
+                                
+    .sucursal__titulo{
+                                
+    }
+                                                
+    .ubicacion{
+        margin: 0 .2em;
+        width: 15em;
+        height: 15em;
+    }
+                                                
+    .ubicacion__a{
+                                
+    }
+                                                
+    .ubicacion__a--img{
+                                
+    }
+                                                
+                        /*CONTACTO*/
+                                                
+    .seccion--e{
+        min-height: 100vh;
+    }        
+                                               
+    .contacto{
+        width: 98%;
+    }
+                                                
+    .contactar{
+        width: 90%;                 
+    }
+                                                
+    .contactar__titulo{
+                                
+    }
+                                                
+    .contact{
+        width: 98%;          
+    }
+                                                
+    .contact__info{
+    width: 100%;
+    padding: 1.5em;        
+    }
+                                                
+    .contact__link{
+                                
+    }
+                                                
+            /*footer*/
+                                                
+    .footer{
+                                                           
+    }
+                                                
+    .finp{
+                                                
+    }
+                                                
+    .izq{
+                                                
+    }
+                                                
+    .izq__copy{
+                                
+    }
+                                                
+    .dch{
+                                
+    }
+                                                
+    .dch__a{
+                                
+    }
+                                                
+    }
